@@ -16,7 +16,7 @@ font-weight: 700;
 
 /* -------------------------------------------------- */
 
-
+/* ----- MENU ----- */
 h1 {
     font-size: 44px;
     font-weight: 300;
@@ -46,7 +46,66 @@ nav ul {
     text-transform: uppercase;
 }
 
+nav a {
+    padding: 22px;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
 }
+
+.menu img {
+    width: 50px;
+}
+
+nav a:hover {
+	background-color: #3498db;
+	color: white;
+}
+
+
+/* ----- BANNER ----- */
+.obsah {
+    background-color: #f5f5f5;
+	min-height: 450px;
+	position: relative;
+	display: flex;
+	
+    justify-content: center;
+}
+
+.banner h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.banner p {
+	margin-left: 40px;
+}
+
+.banner img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.banner a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 20px 30px;
+	margin-right: 20px;
+	
+}
+
+.banner a:hover {
+	background-color: #3498db;
+	color: white;
+}
+
+
+
+/* ----- .OBDELNIKY ----- */
